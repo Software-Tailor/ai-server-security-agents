@@ -1,0 +1,14 @@
+# Secrets — never commit a real key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node
+node_modules/
+
+# .NET
+bin/
+obj/

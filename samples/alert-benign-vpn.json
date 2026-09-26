@@ -1,0 +1,8 @@
+{
+  "source": "SIEM",
+  "rule": "Logon from new country",
+  "time_utc": "2026-10-01T09:02:00Z",
+  "host": "LAPTOP-107",
+  "src_ip": "198.51.100.20",
+  "details": "User j.smith signed in from a new country. Single successful logon, MFA passed, corporate VPN egress address."
+}
