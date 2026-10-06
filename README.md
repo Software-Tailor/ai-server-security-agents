@@ -1,7 +1,7 @@
 # AI Server security agents
 
 Security-operations agents that run on **your own hardware**, using
-**[Software Tailor AI Server](https://softwaretailor.com/docs/ai-server/index.htm)** as the private model
+**[Software Tailor AI Server](https://softwaretailor.com/docs/ai-server/)** as the private model
 behind them. Alerts, logs and verdicts never leave your network unless a tool you write sends them.
 
 The starting point is a **SOC triage agent**: given an alert, it looks up the source's reputation, pulls the
@@ -69,7 +69,7 @@ Several analysts or agents can share one server, each with its own API key, rate
 limits and quotas are AI Server governance features). For more throughput or redundancy, run AI Server in
 **gateway mode** in front of several worker servers: agents keep one endpoint, and every response carries
 `X-AISuite-Backend` naming the server that answered. Every running server or gateway node is one licence.
-See the [deployment docs](https://softwaretailor.com/docs/ai-server/operations.htm).
+See the [deployment docs](https://softwaretailor.com/docs/ai-server/install/kubernetes).
 
 ## Responsible use
 
@@ -79,7 +79,7 @@ test**, and keep a human in the loop for anything destructive.
 
 ## More
 
-- [AI Server API & clients](https://softwaretailor.com/docs/ai-server/api-clients.htm): endpoints, streaming, tool calling, errors
+- [AI Server API & clients](https://softwaretailor.com/docs/ai-server/api/): endpoints, streaming, tool calling, errors
 - [Developer hub](https://softwaretailor.com/developers.htm): all samples and drop-in recipes
 - [Partner Programme](https://softwaretailor.com/partners/): building a security product on AI Server? Technology partners get evaluation licences.
 
